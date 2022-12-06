@@ -1,0 +1,319 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    max-width: 1500px;
+    min-width: 800px;
+    color: #22253B;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+
+
+/* HEADER */
+
+.header {
+    margin: 0px 100px 0px 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-block {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 200px;
+    margin: 10px 0px 0px 100px;
+    padding: 0px 10px 0px 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /*откл. маркеров*/
+    margin-left: auto;
+    margin-right: 26rem;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-text li {
+    display: inline-block;
+    /* Выстраивание элементов списка в один ряд. */
+    align-items: center;
+}
+
+.header-text li a {
+    display: block;
+    /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
+    padding: 10px 15px;
+    /* Внутри блочные отступы. */
+    /* Цвет блоков меню. */
+    color: #22253B;
+    /* Цвет текста в блоках меню. */
+    text-decoration: none;
+    /* Устранение подчёркивания ссылок. */
+    position: relative;
+    /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
+}
+
+.header-text li a:hover {
+    /* Цвет блока при наведении курсора. */
+    color: #F15525;
+    /* Цвет текста при наведении курсора. */
+}
+
+.ajax {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px 0px 0px;
+}
+
+.ajax a {
+    list-style: none;
+    color: #22253B;
+    position: relative;
+    text-decoration: none;
+}
+
+.header-btn-sign_in {
+    border: none;
+    padding: 30px;
+}
+
+.header-btn-sign_in a:hover {
+    color: #F15525;
+}
+
+.header-btn-log_in {
+    background-color: #38BFF2;
+    border-radius: 30px;
+    padding: 10px;
+    width: 80px;
+}
+
+.header-btn-log_in:hover {
+    background-color: #F15525;
+    color: #fff;
+}
+
+
+/* PAGES ONE */
+
+.main-block {
+    z-index: 100;
+}
+
+.title {
+    margin: 50px 0px 35px 195px;
+}
+
+.title p {
+    font-size: 46px;
+    max-width: 600px;
+}
+
+.title p span {
+    color: #F15525;
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    border: none;
+    /* Убираем границу */
+    background-color: #DEDEDE;
+    /* Цвет линии */
+    width: 365.22px;
+    /* Цвет линии для IE6-7 */
+    height: 2px;
+    /* Толщина линии */
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 20px 160px;
+}
+
+.sub-title p {
+    font-size: 16px;
+    margin: 10px 0px 20px 160px;
+}
+
+.header-btn {
+    background-color: #F15525;
+    color: #fff;
+    border-radius: 60px;
+    padding: 10px;
+    width: 330px;
+    height: 60px;
+    margin: 10px 0px 20px 160px;
+    font-size: 20px;
+}
+
+.header-btn:hover {
+    background-color: #38BFF2;
+}
+
+.place1 {
+    display: flex;
+    right: 100px;
+    bottom: 400px;
+    position: relative;
+    float: right;
+    z-index: 9999;
+}
+
+
+/* PAGE TWO */
+
+.title-block_2 {
+    font-family: 'Lato', sans-serif;
+    color: #22253B;
+    margin: 80px 0px 0px 400px;
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-back-end {
+    background-color: #EAF2F5;
+    border-radius: 80px;
+    margin: 100px 150px;
+    padding: none;
+}
+
+.info-block {
+    display: flex;
+    padding: 50px 0px 0px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-block img {
+    width: 400px;
+}
+
+.info-title-text {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 0px 80px;
+    font-size: 16px;
+}
+
+.info-title-text span {
+    border-radius: 100px;
+    font-family: 'Lato', sans-serif;
+    line-height: 3;
+    color: white;
+    padding: 10px 15px 10px 15px;
+}
+
+.info-sub-title {
+    color: #22253B;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+/* PAGE TREEE */
+
+.rectangles-block {
+    background: #EAF2F5;
+    width: 270px;
+    height: 254px;
+    border-radius: 60px;
+    font-family: 'Lato', sans-serif;
+    line-height: 18.5px;
+    margin: 10px 10px;
+}
+
+.rectangles-block img {
+    padding: 40px 0px 0px 105px;
+}
+
+.rectangles-title {
+    padding-top: 20px;
+}
+
+.rectangles-title p {
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rectangles-subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.wrapper-rectangles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px;
+    padding-bottom: 100px;
+}
+
+.rectangles-title {
+    text-align: center;
+    font-size: 46px;
+}
+
+.wrapper-view-title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.wrapper-view-subtitle {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.view-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.circle {
+    margin-right: 100px;
+}
+
+.z-circle {
+    background: #F15525;
+    border-radius: 100px;
+    width: 130px;
+    height: 130px;
+    opacity: .3;
+    z-index: 3;
+}
+
+.btn-reproduce {
+    position: absolute;
+    background: #F15525;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+}
