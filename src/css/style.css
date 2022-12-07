@@ -279,9 +279,14 @@ hr {
     font-size: 46px;
 }
 
+.wrapper-block_4 {
+    background: rgb(236, 233, 233);
+}
+
 .wrapper-view-title {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 46px;
 }
 
 .wrapper-view-subtitle {
@@ -300,13 +305,17 @@ hr {
     margin-right: 100px;
 }
 
-.z-circle {
+.view-video {
+    position: relative;
+    margin-left: 100px;
+}
+
+.opacity-circle {
     background: #F15525;
     border-radius: 100px;
     width: 130px;
     height: 130px;
     opacity: .3;
-    z-index: 3;
 }
 
 .btn-reproduce {
@@ -316,4 +325,114 @@ hr {
     width: 100px;
     height: 100px;
     z-index: 4;
+    position: absolute;
+    top: 0;
+    margin: 15px;
+}
+
+.pros-block {
+    background-color: rgb(255, 255, 255);
+    margin: 30px 0px 0px 150px;
+    display: flex;
+    justify-content: space-around;
+    width: 1160px;
+    height: 320px;
+    border-radius: 50px;
+}
+
+.pros_block_num {
+    margin: 0px 0px 40px 50px;
+}
+
+.pros-numbers {
+    padding-top: 40px;
+    color: #38BFF2;
+    font-size: 70px;
+    font-family: 'Abhaya Libre';
+}
+
+.pros-title {
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.pros-subtitle {
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.btn-go {
+    display: flex;
+    margin: 50px 0px 0px 450px;
+    background: #fff;
+    width: 530px;
+    height: 80px;
+    border-radius: 300px;
+}
+
+.btn-block {
+    display: flex;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+
+.go-btn button {
+    background-color: #F15525;
+    color: #fff;
+    border-radius: 60px;
+    width: 230px;
+    height: 70px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-title {
+    padding: 15px 0px 10px 30px;
+    font-family: 'Manrope';
+}
+
+.rectangles-blocks {
+    background: #EAF2F5;
+    width: 270px;
+    height: 254px;
+    border-radius: 60px;
+    font-family: 'Lato', sans-serif;
+    line-height: 18.5px;
+    margin: 10px 10px;
+}
+
+.rectangles {
+    display: flex;
+}
+
+.rectangles-blocks img {
+    width: 250px;
+    padding: 20px 0px 0px 10px;
+}
+
+.rectangles-block-text {
+    background: #EAF2F5;
+    width: 730px;
+    height: 250px;
+    border-radius: 60px;
+    font-family: 'Lato', sans-serif;
+    line-height: 18.5px;
+    margin: 10px 10px;
+}
+
+.rectangles-text-title {
+    padding: 10px 0px 0px 100px;
+    font-size: 32px;
+    padding-top: 50px;
+}
+
+.rectangles-text-subtitle {
+    padding: 10px 0px 0px 100px
+}
+
+.rectangles-text-subtitle p {
+    padding-top: 10px;
 }
